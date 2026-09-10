@@ -139,4 +139,4 @@ which keeps the hints, sheets, controls and render loop shared.
 
 The guides are `<dialog>` sheets styled in `styles.css`,
 each ending with a credit to
-[Archie Auburn](https://www.instagram.com/archieauburn/).
+[DINESHG](https://www.instagram.com/dinesshjngr/).
