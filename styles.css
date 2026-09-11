@@ -488,6 +488,39 @@ body {
 }
 
 @media (max-width: 420px) {
+  .chrome {
+    padding: max(12px, env(safe-area-inset-top))
+      max(12px, env(safe-area-inset-right))
+      max(14px, env(safe-area-inset-bottom))
+      max(12px, env(safe-area-inset-left));
+  }
+
+  .actions {
+    justify-content: center;
+    gap: 7px;
+  }
+
+  .pill {
+    min-height: 40px;
+    padding: 8px 13px;
+    font-size: 13px;
+  }
+
+  .sheet {
+    width: calc(100vw - 16px);
+    margin-bottom: max(8px, env(safe-area-inset-bottom));
+    padding: 20px 18px 16px;
+    border-radius: 28px;
+  }
+
+  .sheet h2 {
+    font-size: 26px;
+  }
+
+  .support-qr {
+    width: min(100%, 260px);
+  }
+
   .tiles {
     grid-template-columns: 1fr;
   }
