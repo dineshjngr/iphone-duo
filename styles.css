@@ -320,6 +320,35 @@ body {
   text-underline-offset: 3px;
 }
 
+.support-qr {
+  width: min(100%, 300px);
+  margin: 4px auto 18px;
+  padding: 12px;
+  border-radius: 24px;
+  background: #fff;
+  box-shadow: 0 12px 32px rgb(0 0 0 / 0.3);
+  color: #202124;
+  text-align: center;
+}
+
+.support-qr img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 14px;
+}
+
+.support-qr figcaption {
+  margin-top: 10px;
+  font-size: 12px;
+  line-height: 1.35;
+}
+
+.support-thanks {
+  color: rgb(255 255 255 / 0.55) !important;
+  font-size: 13px !important;
+}
+
 .sheet__cmd {
   display: block;
   margin: 0 0 18px;

@@ -11,6 +11,8 @@ const status = unavailable.querySelector('.unavailable__status');
 const retry = unavailable.querySelector('[data-action="retry"]');
 const installSheet = document.querySelector('.sheet--install');
 const fullscreen = document.querySelector('[data-action="fullscreen"]');
+const support = document.querySelector('[data-action="support"]');
+const supportSheet = document.querySelector('.sheet--support');
 
 // Device
 const params = new URLSearchParams(location.search);
@@ -75,6 +77,8 @@ fullscreen.addEventListener('click', async () => {
     installSheet.showModal();
   }
 });
+
+support.addEventListener('click', () => supportSheet.showModal());
 
 document.addEventListener('fullscreenchange', () => {
   fullscreen.textContent = document.fullscreenElement ? 'Exit fullscreen' : 'Fullscreen';
