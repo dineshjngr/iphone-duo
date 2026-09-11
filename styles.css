@@ -108,6 +108,13 @@ body {
   pointer-events: none;
 }
 
+.support-fab {
+  position: absolute;
+  top: max(72px, calc(16px + env(safe-area-inset-top) + 48px));
+  right: max(16px, env(safe-area-inset-right));
+  pointer-events: auto;
+}
+
 .is-app .pill--browser,
 .is-phone .only-laptop,
 .is-laptop .only-phone {
@@ -498,6 +505,12 @@ body {
   .actions {
     justify-content: center;
     gap: 7px;
+  }
+
+  .support-fab {
+    top: max(62px, calc(12px + env(safe-area-inset-top) + 44px));
+    right: 50%;
+    transform: translateX(50%);
   }
 
   .pill {
