@@ -48,8 +48,13 @@ body {
   color: rgb(255 255 255 / 0.8);
   font-size: 12px;
   line-height: 1.4;
+  text-decoration: none;
   text-shadow: 0 1px 4px #000, 0 0 12px rgb(0 0 0 / 0.6);
-  pointer-events: none;
+}
+
+.corner-credit:focus-visible {
+  outline: 2px solid rgb(255 255 255 / 0.75);
+  outline-offset: 3px;
 }
 
 /* Glass */
